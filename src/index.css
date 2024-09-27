@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* 0.5rem = 5px
+0.8rem = 8px
+1rem = 10px
+1.6rem = 16px
+2rem = 20px
+2.4rem = 24px
+3rem = 30px
+4rem = 40px */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+}
+
+/* .code-sample {
+  background-color: #222; 
+  padding: 10px;
+  border-radius: 5px;
+  color: #00ff00; 
+  font-family: 'Courier New', Courier, monospace;
+} 
+h2 {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+header h1 {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+*/
