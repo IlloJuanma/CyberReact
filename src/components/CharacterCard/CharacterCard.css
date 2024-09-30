@@ -1,0 +1,40 @@
+.character-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+
+    & .card {
+        background-color: #1a1a2e;
+        color: #e1e1e1;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 255, 255, 0.3);
+        margin: 10px;
+        padding: 15px;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+
+    & img {
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    & h3 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+
+    }
+
+    & p {
+        font-size: 1rem;
+        color: #00ffcc;
+    }
+
+    & :hover {
+        transform: scale(1.05);
+    }
+}

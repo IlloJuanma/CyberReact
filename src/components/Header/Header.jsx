@@ -11,7 +11,7 @@ export default function Header(){
                 <ul className='nav--list'>
                     <li><a href="#home">React</a></li>
                     <li><a href="#about">Components</a></li>
-                    <li><a href="#gallery">Hooks</a></li>
+                    <li><a href="#api">API</a></li>
                     <li><a href="#contact">Code</a></li>
                 </ul>
             </nav>
