@@ -1,10 +1,11 @@
 .cyberReact-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
     background-color: #111;
     border-bottom: 2px solid #00ffff;
+    margin-bottom: 150px;
 
     .logo img{
         width: 13rem;

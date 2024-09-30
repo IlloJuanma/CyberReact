@@ -14,10 +14,30 @@ export default function React() {
                 Índice de Uso de React en el Mundo Laboral
             </h3>
             <ul className='usage-index'>
-                <li>1. Desarrollo de Aplicaciones Web</li>
-                <li>2. Desarrollo de Aplicaciones Móviles (React Native)</li>
-                <li>3. Popularidad en Startups y Empresas Grandes</li>
-                <li>4. Composición de Componentes para UI</li>
+                <li>
+                    <span>1. Desarrollo de Aplicaciones Web</span>
+                    <div className="progress-bar">
+                        <div className="progress" style={{ width: '90%' }}>90%</div>
+                    </div>
+                </li>
+                <li>
+                    <span>2. Desarrollo de Aplicaciones Móviles (React Native)</span>
+                    <div className="progress-bar">
+                        <div className="progress" style={{ width: '70%' }}>70%</div>
+                    </div>
+                </li>
+                <li>
+                    <span>3. Popularidad en Startups y Empresas Grandes</span>
+                    <div className="progress-bar">
+                        <div className="progress" style={{ width: '85%' }}>85%</div>
+                    </div>
+                </li>
+                <li>
+                    <span>4. Composición de Componentes para UI</span>
+                    <div className="progress-bar">
+                        <div className="progress" style={{ width: '95%' }}>95%</div>
+                    </div>
+                </li>
             </ul>
 
             <h3 className='example-title'>
