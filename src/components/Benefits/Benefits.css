@@ -1,0 +1,21 @@
+.benefits-li{
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+
+.benefit-title {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.benefit-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}

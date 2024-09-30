@@ -1,0 +1,23 @@
+.benefits-section {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1.5rem;
+    color: rgb(0, 255, 255);
+    max-width: 1400px;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+
+    & h2{
+        margin-bottom: 20px;
+    }
+
+    & ul{
+        margin-top: 50px;
+    }
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    
+}

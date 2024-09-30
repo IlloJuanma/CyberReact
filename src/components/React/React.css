@@ -83,6 +83,7 @@
         border-radius: 0.5rem;
         box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.3);
         font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
     }
 
     /* Responsive styles */
